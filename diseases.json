@@ -1,0 +1,72 @@
+{
+  "cotton_leaf_spot": {
+    "name": "Cotton Leaf Spot",
+    "description": "Cotton leaf spot is characterized by small, circular spots on leaves that can lead to defoliation if left untreated. The disease is caused by the fungus Alternaria macrospora.",
+    "recommended_pesticides": [
+      {
+        "name": "Mancozeb",
+        "description": "Broad-spectrum fungicide that prevents spore germination. Apply at 2-3 kg/ha."
+      },
+      {
+        "name": "Propiconazole",
+        "description": "Systemic fungicide that stops fungal growth. Apply at 500-750 ml/ha."
+      }
+    ]
+  },
+  "cotton_boll_rot": {
+    "name": "Cotton Boll Rot",
+    "description": "Cotton boll rot causes discoloration and decay of cotton bolls, leading to significant yield losses. It's typically caused by various fungi including Diplodia, Fusarium, and Colletotrichum species.",
+    "recommended_pesticides": [
+      {
+        "name": "Carbendazim",
+        "description": "Systemic fungicide effective against boll rot. Apply at 500g/ha."
+      },
+      {
+        "name": "Chlorothalonil",
+        "description": "Protectant fungicide with multi-site activity. Apply at 1.5-2 kg/ha."
+      }
+    ]
+  },
+  "coconut_leaf_spot": {
+    "name": "Coconut Leaf Spot",
+    "description": "Coconut leaf spot disease appears as grayish-brown spots with yellow halos on leaves. It's caused by the fungus Pestalotiopsis palmarum and can reduce photosynthetic capacity.",
+    "recommended_pesticides": [
+      {
+        "name": "Copper Oxychloride",
+        "description": "Contact fungicide effective against leaf spot. Apply at 3g/liter of water."
+      },
+      {
+        "name": "Hexaconazole",
+        "description": "Systemic fungicide that provides protective and curative action. Apply at 1ml/liter of water."
+      }
+    ]
+  },
+  "coconut_bud_rot": {
+    "name": "Coconut Bud Rot",
+    "description": "Coconut bud rot is a serious disease affecting the terminal bud of coconut palms, causing yellowing and wilting of youngest leaves. It's primarily caused by the fungus Phytophthora palmivora.",
+    "recommended_pesticides": [
+      {
+        "name": "Metalaxyl",
+        "description": "Systemic fungicide specific for Phytophthora control. Apply as a root drench at 2g/liter of water."
+      },
+      {
+        "name": "Fosetyl-Aluminum",
+        "description": "Systemic fungicide that triggers plant defense mechanisms. Apply at 3g/liter of water as a foliar spray."
+      }
+    ]
+  },
+  "generic_disease": {
+    "name": "Generic Crop Disease",
+    "description": "Unidentified crop disease showing general symptoms of plant stress. This could be due to a variety of pathogens or environmental factors.",
+    "recommended_pesticides": [
+      {
+        "name": "General Fungicide Mix",
+        "description": "Broad-spectrum fungicide combination effective against multiple pathogens. Apply as per manufacturer's recommendations."
+      },
+      {
+        "name": "Biological Control Agent",
+        "description": "Contains beneficial microorganisms like Trichoderma spp. that compete with pathogens. Apply as a soil drench or foliar spray."
+      }
+    ]
+  }
+}

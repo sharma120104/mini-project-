@@ -1,0 +1,65 @@
+/* Custom styling enhancements */
+
+/* Canvas styling */
+#simulationCanvas {
+    background-color: var(--bs-dark);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: auto;
+}
+
+/* Button styling for drone controls */
+#droneControls .btn-outline-secondary {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 2px;
+}
+
+#droneControls #spray {
+    width: 100px;
+    height: 50px;
+}
+
+/* Image preview container */
+#previewImage {
+    max-height: 200px;
+    object-fit: contain;
+    background-color: var(--bs-dark);
+}
+
+/* Card styling */
+.card {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: var(--bs-dark);
+}
+
+.card-header {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Loading indicator */
+#loadingIndicator {
+    padding: 20px;
+}
+
+/* Pesticide list styling */
+#pesticideList .list-group-item {
+    background-color: var(--bs-dark);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Empty state icons */
+#noDetectionInfo, #noSimulationInfo {
+    color: var(--bs-secondary);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    #simulationCanvas {
+        width: 250px;
+        height: 250px;
+    }
+}
